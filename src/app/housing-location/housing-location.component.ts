@@ -4,7 +4,10 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-housing-location',
   standalone: true,
-  imports: [CommonModule],
+  imports: [
+    CommonModule,
+    HousingLocationComponent
+  ],
   template: `
     <p>
       housing-location works!
